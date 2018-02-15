@@ -4,10 +4,10 @@
 
 ## The different meshes
 
-All of these meshes are discretizations of the domain $[0,1]^2$ 
+All of these meshes are discretizations of the domain ![equation](http://www.sciweavers.org/tex2img.php?eq=%5B0%2C1%5D%5E2&bc=White&fc=Black&im=gif&fs=12&ff=arev&edit=0) 
  
  * `mesh1_i` is a classical triangular mesh. `mesh1_i` has been obtained by duplication of `mesh1_0`
- * `mesh2_i` is a uniform rectangular mesh. The mesh size of `mesh2_i` is equal to $2^(-i-1)$
+ * `mesh2_i` is a uniform rectangular mesh. The mesh size of `mesh2_i` is equal to ![equation](http://www.sciweavers.org/tex2img.php?eq=2%5E%7B%28-i-1%29%7D&bc=White&fc=Black&im=gif&fs=12&ff=arev&edit=0)
 
       -> mesh3_i is rectangle mesh locally refined in the neighbourhood of (0,0)
          ******* mesh3_i has been obtained by refinement of mesh3_0
